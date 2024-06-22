@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "sellers-root.gl.joinmc.link",
+          "assigned_srv": "sellers-root.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "9d8b2b87-f2b6-4086-9b04-3105295d8b4f",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 36258,
+          "port_start": 36257,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-22T04:09:59.492746Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "da60a920-60af-46e5-b476-9a3718e99692",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "a2da253e-169d-4673-aadc-a15e5a8aff1c",
+          "agent_name": "apocalitzy zombie",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
